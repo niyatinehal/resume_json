@@ -1,10 +1,10 @@
 {
-  "name": "niyati-terminal-resume",
+  "name": "niyati-nehal",
   "version": "1.0.0",
   "description": "Niyati Nehal's resume viewable via the terminal using npx.",
   "main": "index.js",
   "bin": {
-    "resume": "./index.js"
+    "niyati-nehal": "./index.js"
   },
   "author": "Niyati Nehal",
   "license": "MIT",
@@ -18,9 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-repo-name.git"
+    "url": "https://github.com/niyatinehal/resume_json"
   },
   "dependencies": {
-    "chalk": "^5.3.0"
+    "chalk": "4.1.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
